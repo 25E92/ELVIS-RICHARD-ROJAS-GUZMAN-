@@ -1,5 +1,6 @@
-nombre = "Elvis"
-edad = 33
-
-# Usando una f-string:
-print(f"Hola, me llamo {nombre} y tengo {edad} años.")
+# for 3
+print("inicio 3")
+for i in range(10):
+ print("CETPRO ", end="")
+print()
+print("Final 3")
