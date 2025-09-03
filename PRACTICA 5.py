@@ -1,6 +1,6 @@
-# for 3
-print("inicio 3")
-for i in range(10):
- print("CETPRO ", end="")
-print()
-print("Final 3")
+for i in range(3):
+    print(f"i (externa) vale {i}")
+    #print(i)
+    for i in range(2):
+        print(f"i (interna) vale {i}")
+        #print(i)
