@@ -1,8 +1,4 @@
-altura = int(input("Altura de la figura: "))
-for i in range(altura):
-    print("+")
-altura = int(input("Altura de la figura: "))
-print("+ ")
-for i in range(altura - 2):
-    print("|")
-print("+ ")
+def saludo(nombre):
+      print(f'Hola {nombre}')
+print(saludo('Elvis'))
+#saludo('Elvis')

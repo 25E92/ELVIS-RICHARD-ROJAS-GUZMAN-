@@ -1,6 +1,14 @@
-nombre = input("Ingresa tu nombre: ")
-nombre_completo = ""
-for i in nombre:
-    nombre_completo += i
-    print(f"Pásame la {i}")
-print(f"El resultado de la 'suma' es: ¡{nombre_completo.upper()}!")
+def suma(x,y):
+    return x+y
+def resta(x,y):
+    return x-y
+def multiplicacion(x,y):
+    return x*y
+def division(x,y):
+    return x/y
+x = 8
+y = 4
+print('%d + %d = %d' % (x, y, suma(x, y)))
+print('%d - %d = %d' % (x, y, resta(x, y)))
+print('%d * %d = %d' % (x, y, multiplicacion(x, y)))
+print('%d / %d = %d' % (x, y, division(x, y)))

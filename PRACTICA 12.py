@@ -1,5 +1,7 @@
-lista = [[56, 34, 1],
-        [12, 4, 5],
-        [9, 4, 3]]
-for i in lista:
-    print(i)
+def cuadrado_de_par(numero):
+     if not numero % 2 == 0:
+          return
+     else:
+          print(numero ** 2)
+cuadrado_de_par(8)
+cuadrado_de_par(3)

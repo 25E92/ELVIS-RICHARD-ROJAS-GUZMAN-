@@ -1,6 +1,6 @@
-for i in [1, 2, 3]:
-    for j in [11, 12]:
-        #print(j, end=" ")
-        print(i,j)
-        #print(i, end=" ")
-        print(i,j)
+def sumar(numero1,numero2=20):
+ print(numero1)
+ print(numero2)
+ print(numero1 + numero2)
+sumar(numero2=10, numero1=15)#15, 10 25
+#sumar(10) #10, 20, 30

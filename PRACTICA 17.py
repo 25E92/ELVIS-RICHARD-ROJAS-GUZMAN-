@@ -1,5 +1,4 @@
-anchura = int(input("Anchura de la línea: "))
-print("+ ", end="")
-for i in range(anchura - 2):
-    print("- ", end="")
-print("+ ")
+def saludo(nombre):
+      print(f'Hola {nombre}')
+print(saludo('Juan'))
+#saludo('Juan')

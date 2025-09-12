@@ -1,4 +1,3 @@
-for i in range(3):
-    for j in range(2):
-     #print(f"i vale {i} y j vale {j}")
-     print(i,j)
+def sumar(numero1,numero2):
+ print(numero1+numero2)
+sumar(10,15)# 25
