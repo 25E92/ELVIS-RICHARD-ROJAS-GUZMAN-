@@ -1,4 +1,9 @@
-def sumar(numero1,numero2=520):
-      print(numero1+numero2)
-sumar(125,20)# 25
-sumar(30) #125
+def sum(*args):
+    valor = 0
+    for n in args:
+        valor = valor + n
+    return valor
+print(sum(10,3))
+print(sum(1,2,3))
+print(sum(3,2,4,1))
+print(sum())
