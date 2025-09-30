@@ -1,10 +1,5 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 22/PRACTICA 1.py ====
-0 5
-0 6
-1 5
-1 6
-2 5
-2 6
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 23/PRACTICA 1.py ====
+15

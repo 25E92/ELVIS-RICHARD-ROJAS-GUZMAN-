@@ -1,11 +1,9 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 22/PRACTICA 9.py ====
-C    E
-E    L
-T    V
-P    Z
-R    I
-O    Ñ
-     O
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 23/PRACTICA 9.py ====
+Comienzo del programa
+7 * 5 = 35
+Siguiente
+10 * 5 = 50
+Fin

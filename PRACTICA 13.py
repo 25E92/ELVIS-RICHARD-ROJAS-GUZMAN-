@@ -1,6 +1,7 @@
-lista = [[56, 34, 1],
-        [12, 4, 5],
-        [9, 4, 3]]
-for i in lista:
-    for j in i:
-        print(j, end=" ")
+def es_par(numero):
+     if numero % 2 == 0:
+         return True
+     else:
+         return False
+print(es_par(2))
+print(es_par(5))

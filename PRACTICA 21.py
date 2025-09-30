@@ -1,3 +1,8 @@
-nombre = input("Ingresa tu nombre: ")
-for i in nombre:
-    print(f"Pásame la {i}")
+def calcula_media(x, y):
+  resultado = (x + y) / 5
+  return resultado
+media = calcula_media(y=10, x=8)
+#media = calcula_media(10, 4)
+print("La media es:")
+print(media)
+print("Programa terminado")
