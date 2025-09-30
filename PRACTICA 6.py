@@ -1,5 +1,4 @@
-veces = int(input("¿Cuántas veces quiere aparcesca? "))
-for i in range(veces):
- print("Cetpro ", end="")
-print()
-print("Adiós")
+for i in [1, 2, 3]:
+    for j in range(i):
+        #print(f"i vale {i} y j vale {j}")
+        print(i,j)

@@ -1,3 +1,5 @@
-letras = ["A", "B", "C"]
-for i in letras:
- print(i, end=" ")
+for i in "CETPRO":
+    print(i)
+
+    #print("*")
+ 

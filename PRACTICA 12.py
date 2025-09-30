@@ -1,5 +1,5 @@
-print("INICIO")
-suma = 0
-for i in [1, 2, 3, 4]:
- suma = suma + i
-print(f"La suma de los números de 1 a 4 es {suma}")
+lista = [[56, 34, 1],
+        [12, 4, 5],
+        [9, 4, 3]]
+for i in lista:
+    print(i)

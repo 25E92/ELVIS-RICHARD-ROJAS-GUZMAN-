@@ -1,7 +1,13 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-============ RESTART: C:/Users/ASUS/Documents/CLASE 21/PRACTICA 5.py ===========
-inicio 3
-CETPRO CETPRO CETPRO CETPRO CETPRO CETPRO CETPRO CETPRO CETPRO CETPRO 
-Final 3
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 22/PRACTICA 5.py ====
+i (externa) vale 0
+i (interna) vale 0
+i (interna) vale 1
+i (externa) vale 1
+i (interna) vale 0
+i (interna) vale 1
+i (externa) vale 2
+i (interna) vale 0
+i (interna) vale 1

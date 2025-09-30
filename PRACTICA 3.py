@@ -1,3 +1,5 @@
-for i in "CETPRO":
- print(f"Dame una {i}")
-print("¡CETPRO PUNO!")
+for i in [1, 2, 3]:
+    for j in [11, 12]:
+        #print(j, end=" ")
+        #print(i, end=" ")
+        print(i,j)

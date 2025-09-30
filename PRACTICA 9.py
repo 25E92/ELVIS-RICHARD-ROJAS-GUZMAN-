@@ -1,3 +1,11 @@
-letras = ["A", "B", "C"]
-for i in range(len(letras)-1, -1, -1):
- print(letras[i], end=" ")
+for i,j in ("CETPRO","ELVIS"):
+    for i,j in range (i,j):
+       print(i,j)
+       #print("*")
+
+
+
+
+
+
+
