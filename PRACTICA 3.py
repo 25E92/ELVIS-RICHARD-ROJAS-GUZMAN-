@@ -1,4 +1,2 @@
-x=1
-while x<=3:
-    print("B"*x)
-    x=x+1
+a = [[1,2,3,],["Juan","Alex"],[10,2.5,"TRES"]]
+print(a)

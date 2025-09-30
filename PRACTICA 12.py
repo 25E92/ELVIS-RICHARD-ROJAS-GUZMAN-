@@ -1,4 +1,3 @@
-i = 0
-while i < 5:
-     print("numero ', i)
-     i+=1
+vocales = ["E", "I", "O"]
+vocales = vocales + "Y"
+print(vocales)

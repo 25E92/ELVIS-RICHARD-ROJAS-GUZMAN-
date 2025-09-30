@@ -1,6 +1,4 @@
-edad = int(input("¿Cuántos años tiene? ")) 
-if edad < 18: 
-    print("Es usted menor de edad") 
-if edad >= 18: 
-    print("Es usted mayor de edad") 
-print("¡Hasta la próxima!")
+fecha = [15, "Octubre", 2019]
+print(fecha[-1])
+print(fecha[-2])
+print(fecha[-3])

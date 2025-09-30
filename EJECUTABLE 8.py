@@ -1,14 +1,5 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 13/PRACTICA 8.py ====
-Ingrese un numero: 0
-numero ingresado es Cero
->>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 13/PRACTICA 8.py ====
-Ingrese un numero: -5
-numero ingresao es negativo
->>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 13/PRACTICA 8.py ====
-Ingrese un numero: 9
-numero ingresado es positivo
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 16/PRACTICA 8.py ====
+[['Ana', 25], ['Benito', 23]]

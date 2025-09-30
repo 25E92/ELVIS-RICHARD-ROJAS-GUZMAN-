@@ -1,7 +1,6 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 11/PRACTICA 1.py ====
-Escriba un número positivo: -8
-¡Por favor escriba un número positivo!
-Ha escrito el número -8
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 16/PRACTICA 1.py ====
+[2, 3, 5, 7, 11, 13]
+['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes']

@@ -1,4 +1,4 @@
-edad = int(input("¿Cuántos años tiene? "))
-if edad >= 120:
- print("¡No me lo creo!")
-print(f"Usted dice que tiene {edad} años.")
+a = [10, 11]
+print(a)
+a = [20, 21]
+print(a)

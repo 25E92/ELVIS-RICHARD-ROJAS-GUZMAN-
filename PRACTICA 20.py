@@ -1,7 +1,5 @@
-x = 10
-y = 2
-if y > 0:
-     resultado = x / y
-else:
-     resultado=f'No se puede dividir {x} entre {y}'
-print(resultado)
+a = 10
+b = a
+print(a, b)
+a = 20
+print(a, b)

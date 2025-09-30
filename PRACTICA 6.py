@@ -1,6 +1,6 @@
-##edad = 18
-edad = int(input("Dime tu edad: "))
-if edad >= 18:
- print("Es mayor de edad")
-else:
- print("No es mayor de edad")
+nombre = "LUIS"
+edad = 30
+lista = [nombre, edad]
+print(lista)
+nombre = "Juan"
+print(lista)

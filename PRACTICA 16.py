@@ -1,7 +1,5 @@
-edad = int(input("¿Cuabtos años tiene? "))
-jubilado = -65 + edad
-
-if edad <= 65:
-    print("Usted sigue laborando")
-else:
-    print(f"Usted ya se jubilo hace {jubilado} años")
+fecha = [15, "Octubre", 2019]
+fecha[2] = 2020
+fecha[0] = 24
+fecha[2] = "Enero"
+print(fecha)
