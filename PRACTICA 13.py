@@ -1,6 +1,7 @@
-edad = int(input("¿Cuántos años tiene? ")) 
-if edad < 18: 
-    print("Es usted menor de edad") 
-else: 
-    print("Es usted mayor de edad") 
-print("¡Hasta la próxima!") 
+#imprime del 1 al 4
+inicio = 1
+while inicio <= 4:
+    print(inicio)
+    #inicio += 1
+    inicio=inicio+1
+print("Fin")

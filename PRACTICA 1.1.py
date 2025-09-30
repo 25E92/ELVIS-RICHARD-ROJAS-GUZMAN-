@@ -1,4 +1,4 @@
-x = int(input("Ingrese un numero "))
+x = -5
 if x < 0:
  print(f'{x} es menor que 0')
 elif x > 0:

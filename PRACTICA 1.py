@@ -1,4 +1,7 @@
-numero = int(input("Escriba un número positivo: "))
-if numero < 0:
- print("¡Por favor escriba un número positivo!")
-print(f"Ha escrito el número {numero}")
+x = 28
+if x < 0:
+ print(f'{x} es menor que 0')
+elif x > 0:
+ print(f'{x} es mayor que 0')
+else:
+ print('x es 0')
