@@ -1,2 +1,2 @@
-cantidad = float(input("Dígame una cantidad en dólares (hasta con 2 decimales): "))
-print(f"{cantidad} dólares son {round(cantidad * 3.625)} soles")
+valor = 12345.678
+print(f"Total: {valor:,.2f} €")

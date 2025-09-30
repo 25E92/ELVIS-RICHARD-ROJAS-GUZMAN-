@@ -1,2 +1,5 @@
-peso = float(input("Dígame su peso en kg: "))
-print(f"Su peso es {peso} kg")
+edad = int(input("Por favor, ingresa tu edad: "))
+
+mensaje = f"Eres {'mayor' if edad >= 18 else 'menor'} de edad."
+
+print(mensaje)

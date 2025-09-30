@@ -1,3 +1,5 @@
-nombre = input("Dígame su nombre: ")
-apellido = input(f"Dígame su apellido, {nombre}: ")
-print(f"Me alegro de conocerle, {nombre} {apellido}.")
+nombre = "Elvis"
+edad = 33
+
+# Usando una f-string:
+print(f"Hola, me llamo {nombre} y tengo {edad} años.")

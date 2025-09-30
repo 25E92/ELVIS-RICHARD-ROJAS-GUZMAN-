@@ -1,8 +1,7 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 6/PRACTICA 8.py =====
-soy cristian y tengo 38 años
-cumplidos
-
-Este print :D no cambia de linea;)
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 7/PRACTICA 8.py =====
+********************************
+**Arriba Alianza Lima!**
+********************************
