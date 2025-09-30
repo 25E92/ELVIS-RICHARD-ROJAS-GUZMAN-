@@ -1,7 +1,4 @@
-x = int(input("Ingrese un numero "))
-if x < 0:
- print(f'{x} es menor que 0')
-elif x > 0:
- print(f'{x} es mayor que 0')
-else:
- print('x es 0')
+x=1
+while x<=3:
+    print("*"*4)
+    x=x+1
