@@ -1,6 +1,3 @@
-print("Inicio")
-for i in [0, 1, 2]:
- print("CETPRO ", end="")
-print()
-print("Final")
-
+for i in "CETPRO":
+ print(f"Dame una {i}")
+print("¡CETPRO PUNO!")

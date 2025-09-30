@@ -1,5 +1,6 @@
-print("Inicio")
-for i in [1, 1, 1]:
+# for 3
+print("inicio 3")
+for i in range(10):
  print("CETPRO ", end="")
 print()
-print("Final")
+print("Final 3")

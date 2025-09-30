@@ -1,5 +1,3 @@
-print("Inicio")
-for numero in [0, 1, 2, 3]:
-
- print(f"{numero}*{numero}={numero**2}")
-print("Final")
+letras = ["A", "B", "C"]
+for i in range(len(letras)-1, -1, -1):
+ print(letras[i], end=" ")

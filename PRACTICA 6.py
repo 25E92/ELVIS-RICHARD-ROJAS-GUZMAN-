@@ -1,5 +1,5 @@
-print("Inicio")
-for _ in [0, 1, 2]:
- print("CETPRO ", end="")
+veces = int(input("¿Cuántas veces quiere aparcesca? "))
+for i in range(veces):
+ print("Cetpro ", end="")
 print()
-print("Final")
+print("Adiós")

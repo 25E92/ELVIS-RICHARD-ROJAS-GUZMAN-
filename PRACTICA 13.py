@@ -1,5 +1,9 @@
-print(list(range(len("UNIDOS ESTAMOS"))))
-print(list(range(len(["a","b","c","d","e","f","g","h","i","j","k","l","m"]))))
-print(list(range(len(range(5, 1000, 10)))))
-
-
+indicador = False;
+for var in range(1,6):
+      num = int(input("Dime un número:"))
+      if num % 2 == 0:
+         indicador = True
+if indicador:
+        print("Has introducido algún número par")
+else:
+     print("No has introducido algún número par")

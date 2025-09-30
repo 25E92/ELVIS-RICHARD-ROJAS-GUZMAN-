@@ -1,4 +1,6 @@
-X = (10, 20, 30, 40, 50, 60, 70, 80, 90)
-print(len(X))
-Y = ('Juan', 'Luisa', 'Alberto', 'Mary')
-print(len(Y))
+cont = 0;
+for var in range(1,6):
+     num = int(input("Dime un número:"))
+     if num % 2 == 0:
+      cont = cont + 1
+print("Has introducido ",cont," números pares.")

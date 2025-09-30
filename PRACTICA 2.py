@@ -1,4 +1,5 @@
-nums = [4,78,9,84,1]
-for n in nums:
- print(n)
+for i in [0, 1, 2]:
+ print(f"{i} * {i} = {i ** 2}")
 print()
+for i in [0, 1, 2, 3]:
+ print(f"{i} * {i} * {i} = {i ** 3}")

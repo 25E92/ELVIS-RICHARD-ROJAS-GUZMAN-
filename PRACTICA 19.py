@@ -1,4 +1,3 @@
-a = [10, 11]
-print(a)
-a[0] = 20
-print(a)
+for i in "ELVIS":
+    print(f"Pásame la {i}")
+print("¡ELVIS, ELVIS, ELVIS!")

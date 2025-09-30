@@ -1,4 +1,5 @@
-ra = range(4, 10)
-print(len(ra))
-ra = range(15, 109)
-print(len(ra))
+print("INICIO")
+suma = 0
+for i in [1, 2, 3, 4]:
+ suma = suma + i
+print(f"La suma de los números de 1 a 4 es {suma}")
