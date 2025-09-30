@@ -1,2 +1,5 @@
-# Caso práctico: Reset de carrito de compras
-carrito = ['producto1', 'producto2', 'producto3']
+# Puntuaciones de jugadores
+puntuaciones = [450, 1200, 750, 300]
+# Ordenar la lista
+puntuaciones.sort()
+print(puntuaciones) # [300, 450, 750, 1200]

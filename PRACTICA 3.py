@@ -1,3 +1,5 @@
-mi_lista = [1, 2, 4]
-mi_lista.insert(2, 3)
-print(mi_lista) 
+# Catálogo de productos
+catalogo = ["camisa", "pantalón", "zapatos"]
+# Eliminar el producto 'pantalón'
+catalogo.remove("pantalón")
+print(catalogo) # ['camisa', 'zapatos']

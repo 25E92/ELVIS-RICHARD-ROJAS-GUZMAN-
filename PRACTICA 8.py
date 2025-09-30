@@ -1,4 +1,4 @@
-persona1 = ["Ana", 25]
-persona2 = ["Benito", 23]
-lista = [persona1, persona2]
-print(lista)
+# Respuestas de encuesta
+respuestas = ["sí", "no", "sí", "sí", "no"]
+# Contar cuántos respondieron 'sí'
+print(respuestas.count("sí")) # 3

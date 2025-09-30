@@ -1,4 +1,6 @@
-lista1 = [1, 2]
-lista2 = [3, 4]
-lista1.extend(lista2)
-print(lista1)
+# Lista de tareas
+tareas = ["estudiar", "limpiar", "comprar"]
+# Extraemos la última tarea completada
+tarea = tareas.pop()
+print(tarea) # comprar
+print(tareas) # ['estudiar', 'limpiar']

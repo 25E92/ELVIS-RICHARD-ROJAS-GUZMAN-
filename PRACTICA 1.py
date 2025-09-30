@@ -1,4 +1,5 @@
-mi_lista = [1, 2, 3]
-mi_lista.append(4)
-print(mi_lista)
-# Salida: [1, 2, 3, 4]
+# Lista de compras inicial
+compras = ["pan", "leche", "huevos"]
+# Agregamos un nuevo producto con append
+compras.append("arroz")
+print(compras) # ['pan', 'leche', 'huevos', 'arroz']
