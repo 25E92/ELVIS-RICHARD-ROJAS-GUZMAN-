@@ -1,9 +1,4 @@
-def sumar(numeros):
-     resultado = 0
-     for numero in numeros:
-        #resultado += numero
-
- resultado=resultado+numero   
-     print(resultado)
-sumar([4,5]) # 9
-sumar([2,3,1])# 6
+nombre = "Laura"
+edad = 22
+print("Usando %s ")
+print ("%s's tiene %s años."%(nombre,edad))

@@ -1,5 +1,11 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-==== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 23/PRACTICA 15.py ====
-[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+==== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 24/PRACTICA 15.py ====
+4.0
+4.0
+18.5
+700.0
+La media es:
+700.0
+Programa terminado

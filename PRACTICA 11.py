@@ -1,7 +1,6 @@
-def cuadrado_de_inpar(numero):
-     if not numero % 2 == 1:
-          return
-     else:
-          print(numero ** 3)
-cuadrado_de_inpar(9)
-cuadrado_de_inpar(12)
+def xx(**kwargs):
+    for letra, numero in kwargs.items():#Devuelve una lista
+        print(letra, numero)
+print('Primero')
+xx(uno=1, dos=2, tres=3, cuatro=4, quinto=5, sexto=6)
+xx(Elvis=33, Walter=40, Helar=50, Luzmi=35)

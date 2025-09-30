@@ -1,7 +1,6 @@
-def divide_por_10(numero):
- print(f'{numero} / 5 = {numero / 5}')
-print('Comienzo del programa')
-divide_por_10(8)
-print('Siguiente')
-divide_por_10(11)
-print('Fin')
+def read_list_args(*args):
+    for count, arg in enumerate(args):
+        print( '%d - %s' % (count, arg))
+read_list_args('Ricardo', 'jarroba.com')
+read_list_args('Ricardo', 23, 'Ramon', [1, 2, 3], 'jarroba.com')
+read_list_args(10,"juan",5.5,(5,2,0), 'cetpropuno.edu.pe',0)
