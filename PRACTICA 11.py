@@ -1,6 +1,3 @@
-vocales = ["E", "I", "O"]
-print(vocales)
-vocales = vocales + ["U"]
-print(vocales)
-vocales = ["A"] + vocales
-print(vocales)
+print(list(range(len("UNIDOS ESTAMOS"))))
+print(list(range(len(["a","b","c"]))))
+print(list(range(len(range(5, 1000, 10)))))

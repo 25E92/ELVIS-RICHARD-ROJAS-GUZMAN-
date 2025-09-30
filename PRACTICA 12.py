@@ -1,3 +1,4 @@
-vocales = ["E", "I", "O"]
-vocales = vocales + "Y"
-print(vocales)
+ra = range(4, 10)
+print(len(ra))
+ra = range(15, 109)
+print(len(ra))

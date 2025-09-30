@@ -1,4 +1,4 @@
-lista1 = [10, 20, 30, 40]
-lista2 = [300, 200]
-lista = lista1 + lista2 + lista1
-print(lista)
+X = (10, 20, 30, 40, 50, 60, 70, 80, 90)
+print(len(X))
+Y = ('Juan', 'Luisa', 'Alberto', 'Mary')
+print(len(Y))

@@ -1,5 +1,2 @@
-# Catálogo de productos
-catalogo = ["camisa", "pantalón", "zapatos"]
-# Eliminar el producto 'pantalón'
-catalogo.remove("pantalón")
-print(catalogo) # ['camisa', 'zapatos']
+print(list(range(5, 10)))
+print(list(range(-5, 1)))

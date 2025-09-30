@@ -1,6 +1,2 @@
-# Usuarios registrados en dos plataformas
-usuarios_A = ["Ana", "Luis"]
-usuarios_B = ["María", "Pedro"]
-# Combinar con extend
-usuarios_A.extend(usuarios_B)
-print(usuarios_A) # ['Ana', 'Luis', 'María', 'Pedro']
+print(list(range(5, 21, 3)))
+print(list(range(10, 0, -2)))
