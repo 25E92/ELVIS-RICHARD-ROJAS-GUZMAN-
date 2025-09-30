@@ -1,5 +1,12 @@
-def sum(x, y):
-    return x + y
-#utilizando sum como función
-print(sum(3,5))
-print(sum(2,3))
+# correcto:
+  if edad >=18:
+        print('Mayor de edad')
+# incorrecto:
+    if edad >=18:
+    print('Mator de edad')
+        
+# correcto:
+           suma = a + b
+           resta = a - b
+           multiplicacion = a * b
+           division = a / b
