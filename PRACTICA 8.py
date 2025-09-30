@@ -1,5 +1,10 @@
-# declarar una variable de cadena
-var1 = "Elvis!"
-var2 = "Ciudad de Arequipa"
-# añadir varias cadenas dentro de una cadena
-print("Hola %s estas en %s para trabajar como cist?." % (var1, var2))
+"cambiar el termino de linea"
+nombre = "cristian"
+edad = 38
+print("soy", nombre, end=" ")
+print("y tengo", edad, "años")
+print("cumplidos")
+
+print()
+print("Este print", end=" :D ")
+print("no cambia","de linea", end =";)")

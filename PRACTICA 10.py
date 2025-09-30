@@ -1,10 +1,8 @@
-#Flotante
-f = 100.05
-#entero
-n = int(f)
-print(n)
-print(type(n))
-#cadena
-s = str(f)
-print(s)
-print(type(s))
+msjl="Hoy habra"
+temp = 34
+msj2="grados"
+print(msjl,temp,msj2)
+
+print()
+"cambiar el separador de expresion"
+print(".el Tesoro", "esta", "en",sep="....")

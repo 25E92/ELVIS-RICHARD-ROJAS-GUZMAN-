@@ -1,7 +1,9 @@
-def tabla_del(numero):
-     resultados = []
-     for i in range(15):
-         resultados.append(numero * i)
-     return resultados
-res = tabla_del(5)
-print(res)
+#lec=input("¿cuantas lecciones has visto? ")
+#total=15
+#faltan=total-lec
+#print("Te faltan ",faltan,"lecciones.¡ANIMO¡")
+
+lec= int(input("¿cuantas lecciones has visto? "))
+total=15
+faltan=total-lec
+print("Te faltan ", faltan,"lecciones.¡ANIMO¡")

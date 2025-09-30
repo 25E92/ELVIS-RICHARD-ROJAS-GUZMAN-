@@ -1,4 +1,2 @@
-suma = 25 + 30
-resta = 25 - 35
-multiplicacion = 30 * 50
-division = 30 / 25
+cantidad = float(input("Dígame una cantidad en dólares (hasta con 2 decimales): "))
+print(f"{cantidad} dólares son {round(cantidad * 3.625)} soles")

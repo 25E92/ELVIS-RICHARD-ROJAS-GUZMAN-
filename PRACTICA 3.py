@@ -1,3 +1,2 @@
-def area(base,altura):
-    return base*altura
-print(area(5,10))
+edad = int(input("Dígame su edad: "))
+print(f"Su edad son {edad} años")

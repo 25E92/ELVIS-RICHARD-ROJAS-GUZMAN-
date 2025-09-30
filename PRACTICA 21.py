@@ -1,8 +1,14 @@
-def calcula_media(x, y):
-  resultado = (x + y) / 5
-  return resultado
-media = calcula_media(y=10, x=8)
-#media = calcula_media(10, 4)
-print("La media es:")
-print(media)
-print("Programa terminado")
+# suma de 2 numero
+
+# a=input("ingrese el 2do numero: ")
+# b=input("ingrese el 2do numero: ")
+# c=a+b
+# print("LA suma de dos numeros es:
+# print(c)
+print("ingres el 1er numero: ")
+a=int(input())
+print("ingres el 2do numero: ")
+b=int(input())
+c=a+b
+print("LA suma de dos numeros es: ")
+print(c)

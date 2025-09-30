@@ -1,6 +1,13 @@
-#cadena
-s = '132.564'
-#conversión a entero
-n = int(float(s))
-print(n)
-print(type(n))
+"SALUDANDO AL UASUARIO"
+"programa que saluda a Dr Andres"
+nombre = "Dr. Andres"
+saludo = "Hola,"
+pregunta = "¿como estas hoy?"
+pregunta = "¿como amaneciste hoy?"
+print(saludo, nombre , pregunta)
+"programa que saluda a Valeria"
+nombre = "Valeria"
+saludo = "Hola,"
+pregunta = "¿como estas hoy?"
+pregunta = "¿como amaneciste hoy?"
+print(saludo, nombre, pregunta)

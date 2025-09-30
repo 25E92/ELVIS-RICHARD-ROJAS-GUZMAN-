@@ -1,7 +1,6 @@
 Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
 Enter "help" below or click "Help" above for more information.
 >>> 
-===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 24/PRACTICA 2.py ====
-9
-10
-110
+===== RESTART: E:/MODULO LENGUAJE DE PROGRAMACION II/CLASE 6/PRACTICA 2.py =====
+Dígame una cantidad en dólares (hasta con 2 decimales): 300
+300.0 dólares son 1088 soles

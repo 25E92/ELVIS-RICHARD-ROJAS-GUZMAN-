@@ -1,7 +1,21 @@
-def read_list_args(*args):
-    for count, arg in enumerate(args):
-        print( '%d - %s' % (count, arg))
-read_list_args('Elvis', 'Arroba.com')
-read_list_args('Elvis', 25, 'Rojas', [4, 5, 6], 'Arroba.com')
-read_list_args(33,"Elvis",10.10,(5,2,0), 'cetpropuno.edu.pe',0,25,6)
-read_list_args(25,"Elvis Rojas",25.50,(5,2,0), 'mariano.melgar.edu.pe',0,25,6)
+"imprimir variables calculados preventivas"
+f=91
+celsius=(f-32)*5/9
+print(celsius)
+
+print()
+"imprimir expresiones con variables"
+temperatura=33
+print(temperatura>=30)
+
+"==="
+print()
+episodio=3
+print("episodio")
+print(episodio)
+print("del libro")
+
+print()
+"imprimir multiples expresiones"
+episodio=3
+print("episodio", episodio,"del libro")

@@ -1,10 +1,3 @@
-#cadena
-s = 132.65
-#conversión a entero
-n = int(s)
-print(n)
-print(type(n))
-#conversión a entero
-f = float (s)
-print(f)
-print(type(f))
+numeroA = int(input("Ingrese el primer número "))
+numeroB = int(input("Ingrese el segundo número "))
+print ("La suma de los números es:", numeroA+numeroB)
