@@ -1,7 +1,6 @@
-radio = 0.5
-
-print (f"Área círculo: {3.14159*radio**2:.3f}")
-
-diametro = 10
-
-print (f"Perimetro del  círculo: {3.14159*radio:.2f}")
+# Distribución de productos en cajas
+total_productos = 82
+capacidad_caja = 28
+cajas_completas = total_productos // capacidad_caja
+productos_sobrantes = total_productos % capacidad_caja
+print(f"Cajas completas: {cajas_completas}, Productos sobrantes: {productos_sobrantes}")
