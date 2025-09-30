@@ -1,5 +1,7 @@
-print("¿Cómo se llama?")
-nombre = input()
-print("¿Cual es su apellido?")
-apellido = input()
-print(f"Hola {nombre},{apellido}")
+x = 10
+y = 2
+if y > 0:
+     resultado = x / y
+else:
+     resultado=f'No se puede dividir {x} entre {y}'
+print(resultado)

@@ -1,9 +1,7 @@
-#lec=input("¿cuantas lecciones has visto? ")
-#total=15
-#faltan=total-lec
-#print("Te faltan ",faltan,"lecciones.¡ANIMO¡")
+edad = int(input("¿Cuabtos años tiene? "))
+jubilado = -65 + edad
 
-lec= int(input("¿cuantas lecciones has visto? "))
-total=15
-faltan=total-lec
-print("Te faltan ", faltan,"lecciones.¡ANIMO¡")
+if edad <= 65:
+    print("Usted sigue laborando")
+else:
+    print(f"Usted ya se jubilo hace {jubilado} años")

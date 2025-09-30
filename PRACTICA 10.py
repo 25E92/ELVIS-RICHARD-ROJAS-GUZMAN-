@@ -1,4 +1,4 @@
-esta_en_linea = True
-latencia = 40
-es_buena_conexion = esta_en_linea and latencia < 50
-print(es_buena_conexion) # Salida: True
+x = int(input("ingrese 1er número ")) 
+y = int(input("ingrese 2do número ")) 
+if x < y: 
+    print(x, "es menor que ",y)

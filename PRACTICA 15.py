@@ -1,4 +1,6 @@
-lec=input("¿cuantas lecciones has visto? ")
-total=15
-faltan=total-lec
-print("Te faltan ", faltan,"lecciones.¡ANIMO¡")
+edad = int(input("¿Cuántos años tiene? ")) 
+if edad < 18: 
+    print("Es usted menor de edad") 
+if edad >= 18: 
+    print("Es usted mayor de edad") 
+print("¡Hasta la próxima!")

@@ -1,14 +1,8 @@
-# suma de 2 numero
-
-# a=input("ingrese el 2do numero: ")
-# b=input("ingrese el 2do numero: ")
-# c=a+b
-# print("LA suma de dos numeros es:
-# print(c)
-print("ingres el 1er numero: ")
-a=int(input())
-print("ingres el 2do numero: ")
-b=int(input())
-c=a+b
-print("LA suma de dos numeros es: ")
-print(c)
+x = int(input("Ingrese 1er numero "))
+y = int(input("Ingrese 2do numero "))
+if y > 0:
+     resultado = x / y
+     print("la division es ", resultado)
+else:
+     resultado=f'No se puede dividir {x} entre {y}'
+print(resultado)

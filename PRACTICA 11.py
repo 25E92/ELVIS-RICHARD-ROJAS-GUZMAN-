@@ -1,4 +1,6 @@
-usuario = "admin"
-contrasena = "segura123"
-es_usuario_valido = len(usuario) > 0 and len(contrasena)>= 8
-print(es_usuario_valido)  # Salida:  True
+llueve = True
+if llueve == True:
+    print("Llevaré paraguas")
+else:
+    print("No llevaré paraguas")
+print("Ahora saldré a la calle")

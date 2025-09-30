@@ -1,11 +1,4 @@
-nombre = "Pepe"
-edad = 25
-print("Me llamo",nombre,"Y tengo",edad,"años.")
-print()
-print("¿Cómo se llama?")
-nombre = input()
-print("Me alegro de conocerle,", nombre)
-print()
-nombre = input("¿Cómo se llama? ")
-print("Me alegro mucho de conocerle,", nombre)
-
+edad = int(input("¿Cuántos años tiene? "))
+if edad >= 120:
+ print("¡No me lo creo!")
+print(f"Usted dice que tiene {edad} años.")

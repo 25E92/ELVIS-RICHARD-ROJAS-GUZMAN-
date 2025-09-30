@@ -1,10 +1,9 @@
-print("Buenas tardes")
-print("hoy es 10 de abril del 2025")
-input()
-print("hoy estamos estudiando en el cetpro puno")
-input()
-print('Estamos en Puno')
-input()
-print('¿Cómo te llamas?')
-n=input()
-print('Hola',n,'encantado de conocerte')
+edad = int(input("¿Cuantos años tienes? "))
+if edad < 18:
+    print("Es usted menor de edad")
+    print("No tiene derecho a voto")
+else:
+    print("Es usted mayor de edad")
+    print("tiene derecho a voto")
+    print("¡Hasta la proxima!")
+
