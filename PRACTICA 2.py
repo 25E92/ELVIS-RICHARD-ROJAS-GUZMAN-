@@ -1,2 +1,4 @@
-print(list(range(-2)))
-print(list(range(0)))
+nums = [4,78,9,84,1]
+for n in nums:
+ print(n)
+print()

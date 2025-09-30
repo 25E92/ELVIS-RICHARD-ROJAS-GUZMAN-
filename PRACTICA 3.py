@@ -1,2 +1,6 @@
-print(list(range(5, 10)))
-print(list(range(-5, 1)))
+print("Inicio")
+for i in [0, 1, 2]:
+ print("CETPRO ", end="")
+print()
+print("Final")
+

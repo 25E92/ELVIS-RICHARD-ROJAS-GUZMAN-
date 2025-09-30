@@ -1,6 +1,5 @@
-print(len("CETPRO PUNO"))
-print(len(["a","b","c"]))
-print(len(range(1, 100, 7)))
-a=""
-print(a)
-print(len(a))
+print("Inicio")
+for numero in [0, 1, 2, 3]:
+
+ print(f"{numero}*{numero}={numero**2}")
+print("Final")
