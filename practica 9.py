@@ -1,0 +1,8 @@
+type(2.1)
+print(type(2.1))
+print(type(2.78))
+print(type('Hola'))
+print(isinstance(2.1, float))
+print(isinstance(2E+1, complex))
+print(isinstance(2.1, bool))
+print(isinstance(False, bool))
