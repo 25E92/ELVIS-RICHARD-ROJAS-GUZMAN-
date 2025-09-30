@@ -1,8 +1,4 @@
-msjl="Hoy habra"
-temp = 34
-msj2="grados"
-print(msjl,temp,msj2)
-
-print()
-"cambiar el separador de expresion"
-print(".el Tesoro", "esta", "en",sep="....")
+esta_en_linea = True
+latencia = 40
+es_buena_conexion = esta_en_linea and latencia < 50
+print(es_buena_conexion) # Salida: True

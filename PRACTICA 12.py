@@ -1,13 +1,4 @@
-"SALUDANDO AL UASUARIO"
-"programa que saluda a Dr Andres"
-nombre = "Dr. Andres"
-saludo = "Hola,"
-pregunta = "¿como estas hoy?"
-pregunta = "¿como amaneciste hoy?"
-print(saludo, nombre , pregunta)
-"programa que saluda a Valeria"
-nombre = "Valeria"
-saludo = "Hola,"
-pregunta = "¿como estas hoy?"
-pregunta = "¿como amaneciste hoy?"
-print(saludo, nombre, pregunta)
+uso_cpu =  81
+uso_memoria = 75
+es_sistema_inseguro = uso_cpu > 80 and uso_memoria > 70
+print(es_sistema_inseguro) # Salida: True

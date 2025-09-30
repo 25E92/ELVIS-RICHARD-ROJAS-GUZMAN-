@@ -1,21 +1,3 @@
-"imprimir variables calculados preventivas"
-f=91
-celsius=(f-32)*5/9
-print(celsius)
-
-print()
-"imprimir expresiones con variables"
-temperatura=33
-print(temperatura>=30)
-
-"==="
-print()
-episodio=3
-print("episodio")
-print(episodio)
-print("del libro")
-
-print()
-"imprimir multiples expresiones"
-episodio=3
-print("episodio", episodio,"del libro")
+temperatura = 19.9
+es_valido = temperatura >=20 and temperatura <=30.1
+print(es_valido) # Salida: True
