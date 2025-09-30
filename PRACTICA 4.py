@@ -1,4 +1,4 @@
-X=[[2,4,6],["a","b","c","d"],[10,"Cetpro"]]
-print(X)
-Y = [ ["Juan", ["Viernes", 2019]], ["W", ["año", 2021]]]
-print(Y)
+lista1 = [1, 2]
+lista2 = [3, 4]
+lista1.extend(lista2)
+print(lista1)
