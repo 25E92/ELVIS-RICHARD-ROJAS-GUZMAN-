@@ -1,81 +1,7 @@
-import sqlite3
-# Conexión a la base de datos
-conn = sqlite3.connect("pacientes.db")
-cursor = conn.cursor()
-
-# Crear la tabla si no existe
-cursor.execute('''
-    CREATE TABLE IF NOT EXISTS pacientes (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        nombre TEXT NOT NULL,
-        accidente TEXT NOT NULL
-    )
-''')
-conn.commit()
-# Función para registrar a un paciente
-def registrar_paciente():
-    def guardar_paciente():
-        nombre = entry_nombre.get().strip()
-        accidente = var_accidente.get()
-
-        if nombre and accidente:
-            cursor.execute("INSERT INTO pacientes (nombre, accidente) VALUES (?, ?)", (nombre, accidente))
-            conn.commit()
-            messagebox.showinfo("Registro exitoso", f"Se registró a {nombre} por {accidente.lower()}.")
-            ventana_registro.destroy()
-        else:
-            messagebox.showwarning("Datos incompletos", "Por favor, completa todos los campos.")
-
-    ventana_registro = tk.Toplevel(ventana)
-    ventana_registro.title("Registrar Paciente")
-    ventana_registro.geometry("300x200")
-    ventana_registro.resizable(False, False)
-
-    tk.Label(ventana_registro, text="Nombre del paciente:").pack(pady=5)
-    entry_nombre = tk.Entry(ventana_registro, width=30)
-    entry_nombre.pack(pady=5)
-
-    tk.Label(ventana_registro, text="Tipo de accidente:").pack(pady=5)
-    var_accidente = tk.StringVar(ventana_registro)
-    var_accidente.set("Cortes")  # valor por defecto
-    opciones = list(primeros_auxilios.keys())
-    menu_accidentes = tk.OptionMenu(ventana_registro, var_accidente, *opciones)
-    menu_accidentes.pack(pady=5)
-
-    btn_guardar = tk.Button(ventana_registro, text="Guardar", command=guardar_paciente)
-    btn_guardar.pack(pady=10)
-    # Función para mostrar pacientes registrados
-def ver_pacientes():
-    ventana_pacientes = tk.Toplevel(ventana)
-    ventana_pacientes.title("Pacientes Registrados")
-    ventana_pacientes.geometry("400x300")
-    ventana_pacientes.resizable(False, False)
-
-    texto_pacientes = tk.Text(ventana_pacientes, wrap=tk.WORD)
-    texto_pacientes.pack(expand=True, fill=tk.BOTH)
-
-    cursor.execute("SELECT nombre, accidente FROM pacientes")
-    registros = cursor.fetchall()
-
-    if registros:
-        texto_pacientes.insert(tk.END, "Pacientes registrados:\n\n")
-        for nombre, accidente in registros:
-            texto_pacientes.insert(tk.END, f"👤 {nombre} — 🩺 {accidente}\n")
-    else:
-        texto_pacientes.insert(tk.END, "No hay pacientes registrados.")
-        btn_registrar = tk.Button(marco_menu, text="➕ Registrar Paciente", width=20, bg="lightblue", command=registrar_paciente) 
-        btn_registrar.pack(pady=2)
-
-btn_ver = tk.Button(marco_menu, text="📋 Ver Pacientes", width=20, bg="lightgray", command=ver_pacientes)
-btn_ver.pack(pady=2)
-def salir():
-    if messagebox.askokcancel("Salir", "¿Deseas cerrar la aplicación?"):
-        conn.close()
-        ventana.destroy()
-        
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import os
+
 # Diccionario con la información de primeros auxilios
 primeros_auxilios = {
     "Cortes": [
@@ -207,4 +133,3 @@ texto.pack(side=tk.RIGHT, padx=10, pady=10)
 
 # Iniciar la aplicación
 ventana.mainloop()
-
