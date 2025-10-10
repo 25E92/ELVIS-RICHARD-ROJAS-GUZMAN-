@@ -226,7 +226,8 @@ def buscar_paciente_tabla():
 #   INTERFAZ GRÁFICA
 # ============================
 ventana = tk.Tk()
-ventana.title("Asistente de Primeros Auxilios - ERRG")
+from tkinter import PhotoImage
+ventana.title("MEDICAL CENTER - ELVIS ROJAS")
 ventana.geometry("1150x600")
 ventana.config(bg="#e6f2ff")
 ventana.resizable(False, False)
